@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Restaurant Reservations</title>
+</head>
+<body>
+
+	<input id="user_input" type="text" placeholder="Write name or time" />
+
+	<button id="checkmy">Check My Reservation</button>
+	<button id="checkfor">Check For Time</button>
+	<button id="reserve">Make a Reservation</button>
+
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+	<script src="js/bl.js" ></script>
+	<script src="js/ui.js" ></script>
+	<script type="text/javascript">
+
+		// var reservations = {
+		//   'Billy': { claimed: false }
+		// };
+
+		// $('#claim').on('click', function (e) {
+		//   var name = prompt("What is your name?");
+		// });
+
+		// $('#reserve').on('click', function (e) {
+		//   var name = prompt("What name should we reserve under?");
+		// });
+
+	</script>
+</body>
+</html>
+
+<!-- EXCERCISE 1 -->
+
+<!-- Write code to implement the claim reservation feature:
+
+X Prompt the user for their name (code already given)
+
+X Check if there is a reservation under that name
+
+X Translation: Check if the name is a property of the reservations object
+
+X You should use the concept of truthy/falsey values
+
+X If the reservation exists and is unclaimed, welcome the user
+
+X If the reservation exists and is already claimed, inform the user about the situation
+
+X If there is no reservation, tell the user there is nothing under their name
+
+HINT: You are given one reservation in the reservations object. Use the name Billy when testing your code. -->
+
+<!-- EXCERCISE 2 -->
+
+<!-- Write code to implement the make a reservation feature:
+
+X Prompt the user for a name (code already given)
+
+X Check if there is a reservation under that name
+
+X Keep in mind claimed and unclaimed reservations
+
+If there exists an unclaimed reservation under that name, inform the user that they need to use a different name
+
+If the reservation has been claimed, it's name is no longer reserved
+
+Otherwise create the reservation -->
